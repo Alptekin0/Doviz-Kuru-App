@@ -1,0 +1,54 @@
+body{
+     margin: 0;
+     padding: 0;
+     background-color: beige;
+}
+
+.baslik-wrapper{
+     display: flex;
+     justify-content: center; /* Yatay merkezleme */
+     align-items: center; /* Dikey merkezleme */
+     font-family: sans-serif;
+}
+
+.kurlar-wrapper {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center; 
+     margin-top: 40px;
+}
+
+.icerik{
+     width: 500px;
+     height: 30px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 40px;
+     border-radius: 20px;
+}
+
+.icerik:hover{
+     background-color: rgb(101, 95, 81);
+}
+
+#kurAdi{
+     font-size: x-large;
+     font-family: monospace;
+     margin-right: 50px;
+}
+
+#kurDegeri{
+     width: 250px;
+     height: 30px;
+     border-radius: 10px;
+    background-color: rgb(207, 212, 218);
+}
+
+#kurDegeri:focus{
+     box-shadow: 10px 10px black;
+     text-align: center;
+     caret-color:#d46b4b;
+     color: rgb(80, 70, 70); 
+}
